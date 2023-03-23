@@ -1,5 +1,5 @@
 /**
- * @generated SignedSource<<1768733e01b0d2de7f6ab09920dcbb3f>>
+ * @generated SignedSource<<d9e1dd69fe1200848830392f8c0cdd26>>
  * @lightSyntaxTransform
  * @nogrep
  */
@@ -10,23 +10,23 @@
 
 import { Fragment, ReaderFragment } from 'relay-runtime';
 import { FragmentRefs } from "relay-runtime";
-export type PosterBylineFragment$data = {
+export type PosterByline$data = {
   readonly name: string | null;
   readonly profilePicture: {
     readonly url: string;
   } | null;
-  readonly " $fragmentType": "PosterBylineFragment";
+  readonly " $fragmentType": "PosterByline";
 };
-export type PosterBylineFragment$key = {
-  readonly " $data"?: PosterBylineFragment$data;
-  readonly " $fragmentSpreads": FragmentRefs<"PosterBylineFragment">;
+export type PosterByline$key = {
+  readonly " $data"?: PosterByline$data;
+  readonly " $fragmentSpreads": FragmentRefs<"PosterByline">;
 };
 
 const node: ReaderFragment = {
   "argumentDefinitions": [],
   "kind": "Fragment",
   "metadata": null,
-  "name": "PosterBylineFragment",
+  "name": "PosterByline",
   "selections": [
     {
       "alias": null,
@@ -58,6 +58,6 @@ const node: ReaderFragment = {
   "abstractKey": "__isActor"
 };
 
-(node as any).hash = "02033e04df564df419a9aa123aedadfa";
+(node as any).hash = "7fe4a405070e94ade83f455c39ce68ee";
 
 export default node;
