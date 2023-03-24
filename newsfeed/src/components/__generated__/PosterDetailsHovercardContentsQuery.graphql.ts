@@ -1,5 +1,5 @@
 /**
- * @generated SignedSource<<42003b0ddb424dee5500be014fb4eafb>>
+ * @generated SignedSource<<6fc504ffa1c2c6ec4c7a70d16382e87d>>
  * @lightSyntaxTransform
  * @nogrep
  */
@@ -26,7 +26,7 @@ var v0 = [
   {
     "kind": "Literal",
     "name": "id",
-    "value": "7"
+    "value": "1"
   }
 ];
 return {
@@ -57,7 +57,7 @@ return {
             "abstractKey": "__isActor"
           }
         ],
-        "storageKey": "node(id:\"7\")"
+        "storageKey": "node(id:\"1\")"
       }
     ],
     "type": "Query",
@@ -138,21 +138,21 @@ return {
             "abstractKey": "__isActor"
           }
         ],
-        "storageKey": "node(id:\"7\")"
+        "storageKey": "node(id:\"1\")"
       }
     ]
   },
   "params": {
-    "cacheID": "60ecc2a435b5250ebfa3429259bd9555",
+    "cacheID": "833bf8da8b37f27701d7cb0489a92a50",
     "id": null,
     "metadata": {},
     "name": "PosterDetailsHovercardContentsQuery",
     "operationKind": "query",
-    "text": "query PosterDetailsHovercardContentsQuery {\n  node(id: \"7\") {\n    __typename\n    ... on Actor {\n      __isActor: __typename\n      ...PosterDetailsHovercardContentsBodyFragment\n    }\n    id\n  }\n}\n\nfragment ImageFragment on Image {\n  url\n  altText\n}\n\nfragment PosterDetailsHovercardContentsBodyFragment on Actor {\n  __isActor: __typename\n  id\n  name\n  joined\n  profilePicture {\n    ...ImageFragment\n  }\n}\n"
+    "text": "query PosterDetailsHovercardContentsQuery {\n  node(id: \"1\") {\n    __typename\n    ... on Actor {\n      __isActor: __typename\n      ...PosterDetailsHovercardContentsBodyFragment\n    }\n    id\n  }\n}\n\nfragment ImageFragment on Image {\n  url\n  altText\n}\n\nfragment PosterDetailsHovercardContentsBodyFragment on Actor {\n  __isActor: __typename\n  id\n  name\n  joined\n  profilePicture {\n    ...ImageFragment\n  }\n}\n"
   }
 };
 })();
 
-(node as any).hash = "b364cc37fc258ebda3e5848d42edf9e6";
+(node as any).hash = "6593e1d6cb07bd20beaa00669a45b5e5";
 
 export default node;
