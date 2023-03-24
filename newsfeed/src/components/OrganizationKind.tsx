@@ -16,9 +16,7 @@ type Props = {
   kind: OrganizationKind;
 };
 
-export default function OrganizationKind({
-  kind,
-}: Props): React.ReactElement {
+export default function OrganizationKind({ kind }: Props): React.ReactElement {
   return <div className="byline__detail">{label(kind)}</div>;
 }
 
