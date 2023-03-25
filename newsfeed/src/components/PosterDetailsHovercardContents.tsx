@@ -69,12 +69,12 @@ function PosterDetailsHovercardContentsBody({
         <li>
           Joined <Timestamp time={data.joined} />
         </li>
-          {data.location && <li>{data.location.name}</li>}
-          {data.organizationKind && (
-            <li>
-              <OrganizationKind kind={data.organizationKind} />{" "}
-            </li>
-          )}
+        {data.location && <li>{data.location.name}</li>}
+        {data.organizationKind && (
+          <li>
+            <OrganizationKind kind={data.organizationKind} />{" "}
+          </li>
+        )}
       </ul>
       <div className="posterHovercard__buttons">
         <button>Friend</button>
